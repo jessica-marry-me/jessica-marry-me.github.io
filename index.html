@@ -57,6 +57,13 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- fancybox -->
+	<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -70,20 +77,21 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
+		<!-- 導航列 -->
+	<!-- <nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html">Jessica<strong>.</strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
 						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="about.html">Story</a></li>
 						<li class="has-dropdown">
-							<a href="services.html">Services</a>
+							<a href="index.html">Services</a>
 							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
+								<li><a href="#fh5co-event">Web Design</a></li>
 								<li><a href="#">eCommerce</a></li>
 								<li><a href="#">Branding</a></li>
 								<li><a href="#">API</a></li>
@@ -104,9 +112,9 @@
 			</div>
 			
 		</div>
-	</nav>
+	</nav> -->
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/2018_flow_wall.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -116,7 +124,7 @@
 							<!-- <h1>Jessica &amp; Piece</h1> -->
 							<h2>我們在一起，已經</h2>
 							<div class="simply-countdown simply-countdown-one"></div>
-							<h2>天了唷</h2>
+							<!-- <h2>天了唷</h2> -->
 							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
 						</div>
 					</div>
@@ -125,12 +133,12 @@
 		</div>
 	</header>
 
-	<div id="fh5co-couple">
+	<!-- <div id="fh5co-couple">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<h2>Hello!</h2>
-					<h3>November 28th, 2016 New York, USA</h3>
+					<h3>還記得我們是怎麼認識的嗎？</h3>
 					<p>We invited you to celebrate our wedding</p>
 				</div>
 			</div>
@@ -156,9 +164,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
+<!-- 	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img_bg_3.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -209,52 +217,444 @@
 			</div>
 		</div>
 	</div>
-
+ -->
+ 	<!-- 愛情故事 -->
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-					<span>We Love Each Other</span>
-					<h2>Our Story</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<span>還記得我們怎麼認識得嗎</span>
+					<h2>Here</h2>
+					<!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p> -->
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-1.jpg);"></div>
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_meet.jpg);"
+								data-src="images/2018_meet.jpg"
+								data-fancybox="gallery"
+								data-caption="這是我們還沒在一起之前，第一次去淡水老街唷"
+							>
+							</div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First We Meet</h3>
-									<span class="date">December 25, 2015</span>
+									<h3 class="timeline-title">第一次去淡水</h3>
+									<span class="date">December 23, 2018</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>這是我們還沒在一起之前，第一次去淡水老街唷</p>
 								</div>
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-2.jpg);"></div>
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_summer_circle.jpg);"
+								data-src="images/2018_summer_circle.jpg"
+								data-fancybox="gallery"
+								data-caption="我們 2018.01 在一起之後第一個去的景點唷"
+							></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">First Date</h3>
-									<span class="date">December 28, 2015</span>
+									<h3 class="timeline-title">夏季三角</h3>
+									<span class="date">January 07, 2018</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>我們 2018.01 在一起之後第一個去的景點唷</p>
 								</div>
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/couple-3.jpg);"></div>
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_juifen.jpg);"
+								data-src="images/2018_juifen.jpg"
+								data-fancybox="gallery"
+								data-caption="第一次去九份老街，最喜歡做甜點的妳，買了一個泡芙冰淇凌"
+							></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
-									<h3 class="timeline-title">In A Relationship</h3>
-									<span class="date">January 1, 2016</span>
+									<h3 class="timeline-title">九份老街</h3>
+									<span class="date">January 15, 2018</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>第一次去九份老街，最喜歡做甜點的妳，買了一個泡芙冰淇凌</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_sanxia.JPG);"
+								data-src="images/2018_sanxia.JPG"
+								data-fancybox="gallery"
+								data-caption="三峽老街去了之後從此沒在去過第二次了，哈哈哈"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">三峽老街</h3>
+									<span class="date">January 21, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>三峽老街去了之後從此沒在去過第二次了，哈哈哈</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_weird_coffee.JPG);"
+								data-src="images/2018_weird_coffee.JPG"
+								data-fancybox="gallery"
+								data-caption="這是一間不知位核就去了的一間咖啡店，氣氛滿滿不錯的喲"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">咖啡店</h3>
+									<span class="date">January 29, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>這是一間不知位核就去了的一間咖啡店，氣氛滿滿不錯的喲</p>
+								</div>
+							</div>
+						</li>
+
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_dajian.JPG);"
+								data-src="images/2018_dajian.JPG"
+								data-fancybox="gallery"
+								data-caption="妳不知道已經去過幾百次的大江，但是對我們來說，是我們的第一次一起去唷"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">大江</h3>
+									<span class="date">February 16, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>妳不知道已經去過幾百次的大江，但是對我們來說，是我們的第一次一起去唷</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_watch_airplane.JPG);"
+								data-src="images/2018_watch_airplane.JPG"
+								data-fancybox="gallery"
+								data-caption="我依稀記得小寶說，心情不好都會來這邊看機機"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">看飛機</h3>
+									<span class="date">February 18, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>我依稀記得小寶說，心情不好都會來這邊看機機</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_sea_timberland.jpg);"
+								data-src="images/2018_sea_timberland.jpg"
+								data-fancybox="gallery"
+								data-caption="第一次去看海，妳就穿著我買的 timberland 開開心心地跑來跑去"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">永安漁港</h3>
+									<span class="date">February 19, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>第一次去看海，妳就穿著我買的 timberland 開開心心地跑來跑去</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_lantern.JPG);"
+								data-src="images/2018_lantern.JPG"
+								data-fancybox="gallery"
+								data-caption="人擠人的燈會，連移動都非常困難"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">燈會</h3>
+									<span class="date">February 24, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>人擠人的燈會，連移動都非常困難</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_amusement.JPG);"
+								data-src="images/2018_amusement.JPG"
+								data-fancybox="gallery"
+								data-caption="小寶最愛的兒童新樂園，妳就像小朋友一樣興奮的衝進去"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">兒童新樂園</h3>
+									<span class="date">March 04, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>小寶最愛的兒童新樂園，妳就像小朋友一樣興奮的衝進去</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_chicken.jpg);"
+								data-src="images/2018_chicken.jpg"
+								data-fancybox="gallery"
+								data-caption="我們第一次去台南，那時候還很冷，最暖心最好吃的唐揚炸雞"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">燈會</h3>
+									<span class="date">April 07, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>我們第一次去台南，那時候還很冷，最暖心最好吃的唐揚炸雞</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_chimei_museum.jpg);"
+								data-src="images/2018_chimei_museum.jpg"
+								data-fancybox="gallery"
+								data-caption="奇美博物館，天氣真的非常好，好到很熱，而且小寶還說曬黑了"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">台南奇美博物館</h3>
+									<span class="date">March 08, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>奇美博物館，天氣真的非常好，好到很熱，而且小寶還說曬黑了</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tainan_shennong.JPG);"
+								data-src="images/2018_tainan_shennong.JPG"
+								data-fancybox="gallery"
+								data-caption="第一次台南神農街，喝到超美味的黑糖珍珠鮮奶"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">神農街</h3>
+									<span class="date">April 11, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>第一次台南神農街，喝到超美味的黑糖珍珠鮮奶</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_three_flavor_sushi.jpg);"
+								data-src="images/2018_three_flavor_sushi.jpg"
+								data-fancybox="gallery"
+								data-caption="排隊等超久的三味食堂，小寶最愛的大份鮭魚壽司"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">三味食堂</h3>
+									<span class="date">March 21, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>排隊等超久的三味食堂，小寶最愛的大份鮭魚壽司</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_flower_sea.jpg);"
+								data-src="images/2018_flower_sea.jpg"
+								data-fancybox="gallery"
+								data-caption="看花海花海超漂亮"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">花海</h3>
+									<span class="date">May 05, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>看花海花海超漂亮</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_graduate.jpg);"
+								data-src="images/2018_graduate.jpg"
+								data-fancybox="gallery"
+								data-caption="恭喜小公主畢業了唷～"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">畢業</h3>
+									<span class="date">June 09, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>恭喜小公主畢業了唷～</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_flower_2.jpg);"
+								data-src="images/2018_flower_2.jpg"
+								data-fancybox="gallery"
+								data-caption="巨大的摩艾，天氣真的非常好"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">摩艾</h3>
+									<span class="date">June 16, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>巨大的摩艾，天氣真的非常好</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_flower_3.jpg);"
+								data-src="images/2018_flower_3.jpg"
+								data-fancybox="gallery"
+								data-caption="彩虹框框，看完摩艾還有美麗的小寶"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">畢業</h3>
+									<span class="date">June 16, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>彩虹框框，看完摩艾還有美麗的小寶</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_liliputian.jpg);"
+								data-src="images/2018_liliputian.jpg"
+								data-fancybox="gallery"
+								data-caption="小人國根本就是小寶的天堂之一，非常融入裡面"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">小人國</h3>
+									<span class="date">June 16, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>小人國根本就是小寶的天堂之一，非常融入裡面</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand.jpg);"
+								data-src="images/2018_tailand.mp4"
+								data-fancybox="gallery"
+								data-caption="泰國之旅好開心，第一次跟寶寶出國，阿噗嚕超廢都不知道要怎麼整理"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">準備飛泰國</h3>
+									<span class="date">June 21, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>泰國之旅好開心，第一次跟寶寶出國，阿噗嚕超廢都不知道要怎麼整理</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand_river.jpg);"
+								data-src="images/2018_tailand_river.mp4"
+								data-fancybox="gallery"
+								data-caption="能在異國的河上跟妳一起悠游吹著河風，非常舒服又開心"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">泰國之旅河</h3>
+									<span class="date">June 22, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>能在異國的河上跟妳一起悠游吹著河風，非常舒服又開心</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand_mcdonald.jpg);"
+								data-src="images/2018_tailand_mcdonald.jpg"
+								data-fancybox="gallery"
+								data-caption="全世界只有泰國的麥當勞，才會有合十的麥當勞叔叔"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">泰國麥當勞</h3>
+									<span class="date">June 23, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>全世界只有泰國的麥當勞，才會有合十的麥當勞叔叔</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand_chicken.jpg);"
+								data-src="images/2018_tailand_chicken.jpg"
+								data-fancybox="gallery"
+								data-caption="泰國很多好吃的小吃，跟台灣一樣"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">泰國炸雞好好吃</h3>
+									<span class="date">June 23, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>泰國很多好吃的小吃，跟台灣一樣</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand_river_market.jpg);"
+								data-src="images/2018_tailand_river_market.jpg"
+								data-fancybox="gallery"
+								data-caption="沒有最害怕，只有更害怕，害怕不是掉到河裡，是怕小寶殺價殺得太凶怕被當地人揍"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">泰國水上市場</h3>
+									<span class="date">June 24, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>沒有最害怕，只有更害怕，害怕不是掉到河裡，是怕小寶殺價殺得太凶怕被當地人揍</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box">
+							<div class="timeline-badge"
+								style="background-image:url(images/2018_tailand_lampyridae.jpg);"
+								data-src="images/2018_tailand_lampyridae.mp4"
+								data-fancybox="gallery"
+								data-caption="泰國看螢火蟲好開心，但是被蚊子咬到爆"
+							></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">泰國看螢火蟲</h3>
+									<span class="date">June 24, 2018</span>
+								</div>
+								<div class="timeline-body">
+									<p>泰國看螢火蟲好開心，但是被蚊子咬到爆</p>
 								</div>
 							</div>
 						</li>
@@ -609,16 +1009,25 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	<script>
-    var d = new Date(new Date('2018-01-01').getTime());
+	<!-- fancybox -->
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
-</script>
+	<script>
+	    var d = new Date(new Date('2018-01-01').getTime());
+
+	    // default example
+	    simplyCountdown('.simply-countdown-one', {
+	        year: d.getFullYear(),
+	        month: d.getMonth() + 1,
+	        day: d.getDate()
+	    });
+
+	    Fancybox.bind("[data-fancybox]", {
+		  Image: {
+		    zoom: false,
+		  },
+		});
+	</script>
 
 	</body>
 </html>
