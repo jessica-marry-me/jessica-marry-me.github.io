@@ -218,6 +218,7 @@
 		</div>
 	</div>
  -->
+
  	<!-- 愛情故事 -->
 	<div id="fh5co-couple-story">
 		<div class="container">
@@ -2805,8 +2806,34 @@
 			</div>
 		</div>
 	</div>
+	<hr>
+ 	<!-- 求婚影片 -->
+	<div class="fh5co-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-push-3 animate-box">
+					<form id="marriage_form" action="#">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<label for="message">密碼</label>
+								<textarea name="password" id="password" cols="30" rows="10" class="form-control" placeholder="請將另一份 QRcode 掃描後的文字貼上"></textarea>
+							</div>
+						</div>
+						<div class="form-group text-center">
+							<input type="submit" value="送出" class="btn btn-primary">
+						</div>
+					</form>		
+				</div>
+			</div>
+		</div>
+		<div class="embed-responsive embed-responsive-16by9">
+		  <iframe id="marriage_iframe" class="embed-responsive-item" allowfullscreen style="display: none;"></iframe>
+		</div>
+	</div>
+	<hr>
 
-	<!-- <div id="fh5co-gallery" class="fh5co-section-gray">
+
+<!-- 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
@@ -3151,6 +3178,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
+	<script src="js/md5.min.js"></script>
 	<!-- fancybox -->
 	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
@@ -3169,6 +3197,30 @@
 		    zoom: false,
 		  },
 		});
+
+		const form = document.getElementById('marriage_form');
+		form.onsubmit = function(e) {
+			e.preventDefault();
+			const password_dom = document.getElementById('password');
+			const file_dom = document.getElementById('marriage_iframe');
+			// 取得密碼
+			let password = password_dom.value;
+			// 過濾掉空白
+			password = password.replace(/\s/g, '');
+			if (md5(password) != '288988f768d8ab3e29fea4eee6441e33') {
+				return alert('密碼錯誤！');
+			}
+
+			// 密碼正確
+
+			// 取得及替換掉檔案名稱
+			const file_name = md5('1011' + password + '1218');
+			file_dom.src = 'images/' + file_name + '.mp4';
+
+			e.target.style.display = 'none';
+			file_dom.style.display = 'block';
+		};
+
 	</script>
 
 	</body>
